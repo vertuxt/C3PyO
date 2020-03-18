@@ -239,7 +239,7 @@ class C3Chart(object):
             'zoom': self.get_zoom_for_json(),
             'subchart': self.get_subchart_for_json(),
             'size': self.get_size_for_json(),
-            'points': self.get_points_for_json(),
+            'point': self.get_points_for_json(),
             'donut': self.get_donut_for_json(),
             'tooltip': self.get_tooltip_for_json(),
             'bar': self.get_bar_for_json(),
